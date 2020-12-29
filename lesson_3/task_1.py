@@ -1,4 +1,12 @@
 def division(dividend, divider):
+    """ Возвращает частное от деления.
+
+        В случае ошибки возвращает None
+        Позиционные параметры:
+        dividend -- делимое
+        divider -- делитель
+
+    """
     try:
         return dividend/divider
     except ZeroDivisionError:
@@ -7,8 +15,8 @@ def division(dividend, divider):
 
 while True:
     try:
-        arg_1 = int(input('Введите делимое x: '))
-        arg_2 = int(input('Введите делитель y: '))
+        arg_1 = float(input('Введите делимое x: '))
+        arg_2 = float(input('Введите делитель y: '))
         break
     except ValueError:
         print('Введите число!')

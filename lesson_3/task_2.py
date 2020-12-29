@@ -1,4 +1,15 @@
-def format_person(name, surname, year, city, mail, phone):
+def format_person(name='John', surname='Doe', year=18, city='', mail='', phone=''):
+    """ Возвращает форматированную строку с данными пользователя.
+
+        Именованные параметры:
+        name -- Имя
+        surname -- Фамилия
+        year -- Год рождения
+        city -- Город проживания
+        mail -- E-mail
+        phone -- Номер телефона
+
+    """
     return f"Пользователь:\n{name} {surname} {year}г.р.\nПроживает в г.{city}\nE-mail: {mail}\nТелефон: {phone}"
 
 
