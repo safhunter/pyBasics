@@ -1,0 +1,5 @@
+Smith 10000
+Doe 5000
+Bond 100000
+Stark 1000000
+Chan fgh
