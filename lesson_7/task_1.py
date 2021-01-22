@@ -36,7 +36,7 @@ class Matrix:
             else:
                 raise ValueError('Matrices must be the same dimensions')
         else:
-            raise TypeError(f'Argument is no a type {type(self)}')
+            raise TypeError(f'Argument is not a type {type(self)}')
 
 
 matrix_1 = Matrix([[1, 2, 3], [4, 5, 6], [7, 8]])
